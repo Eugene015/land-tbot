@@ -30,10 +30,7 @@ const start = () => {
         chatId,
         "https://tlgrm.eu/_/stickers/642/d5c/642d5c05-6153-3fb0-9201-23cbe0f1cc76/1.webp"
       );
-      return bot.sendMessage(
-        chatId,
-        `Zemlevporyadnik company. Welcome to our telegram bot!`
-      );
+      return bot.sendMessage(chatId, `Company. Welcome to our telegram bot!`);
     }
 
     if (text === "/info") {
